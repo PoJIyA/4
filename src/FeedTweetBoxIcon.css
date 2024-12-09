@@ -1,0 +1,12 @@
+.feedTweetBox_Icon {
+    color: var(--x-color);
+    font-size: 20px !important;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.feedTweetBox_Icon:hover {
+    background-color: var(--blue_glass);
+    transition: 200ms ease-in-out;
+}

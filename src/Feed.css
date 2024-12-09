@@ -1,0 +1,33 @@
+.feed {
+    width: 100%;
+    border-right: 1px solid var(--x-grey);
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.feed__header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 100;
+    border-bottom: 1px solid var(--x-grey);
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(10px);
+    filter: alpha(opacity=60);
+}
+
+.feed__header > h2 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.feed__header > h2:hover {
+    background-color: var(--x-grey);
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}

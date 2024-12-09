@@ -1,0 +1,33 @@
+img {
+    height: 40px;
+}
+
+.sidebarProfile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+.sidebarProfile:hover {
+    background-color: #1b1b1b;
+    transition: 100ms ease-in-out;
+}
+
+.sidebarProfile_Name {
+    width: 100%;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.tag {
+    color: var(--x-lightgrey)
+}
+
+.sidebarProfile > .more_icon {
+    font-size: 18px;
+}

@@ -1,0 +1,61 @@
+.sidebar {
+    min-width: 250px;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid var(--x-grey);
+    width: 275px;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 20px; */
+    padding: 20px;
+}
+
+.sideBar_XIcon {
+    font-size: 30px !important;
+    margin-left: 16px;
+}
+
+.sideBar_post {
+    background-color: var(--text) !important;
+    color: var(--x-background) !important;
+    border-radius: 100px !important;
+    padding: 10px !important;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 800 !important;
+    font-size: 18px !important;
+    text-transform: inherit !important;
+}
+
+.sideBar_post:hover {
+    background-color: var(--x-lightgrey) !important;
+    transition: 200ms ease-in-out;
+}
+
+@media (max-width: 1280px) {
+    .side {
+      width: 78px;
+    }
+
+    .sidebarOption_Text {
+        display: none;
+      }
+  
+    .sidebarProfile > .more_icon {
+        display: none;
+      }
+
+    .sidebarProfile_Name {
+        display: none;
+      }
+
+
+    .sideBar_post {
+        width: 78px;
+    }  
+}

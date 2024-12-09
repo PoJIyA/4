@@ -1,0 +1,35 @@
+.feedHeader > h2 {
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    color: var(--x-lightgrey);
+}
+
+.feedHeader--active > h2 {
+    font-weight: 800;
+    color: white;
+}
+
+.feedHeader {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    border: none;
+}
+
+.feedHeader:hover {
+    background-color: rgba(56, 56, 56, 0.4);
+    transition: 200ms ease-in-out;
+}
+
+.feedHeader--active::after {
+    content: "";
+    width: 56px;
+    height: 5px;
+    background: var(--x-color);
+    position: absolute;
+    bottom: -1px;
+    left:20.5%;
+    border-radius: 50px;
+}

@@ -1,0 +1,75 @@
+.postButton {
+    background-color: var(--text) !important;
+    color: var(--x-background) !important;
+    border-radius: 100px !important;
+    padding: 4px 6px !important;
+    cursor: pointer;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    text-transform: inherit !important;
+}
+
+.postButton:hover {
+    background-color: var(--x-lightgrey) !important;
+    transition: 100ms ease-in-out;
+}
+
+.tweetBox {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--x-grey);
+    padding-right: 10px;
+}
+
+/* .tweetBox > form {
+    display: flex;
+
+} */
+
+.inputFeed {
+    border: none;
+    background-color: var(--x-background);
+    font-size: 20px;
+}
+
+.tweetBox__imageInput {
+    border: none;
+    background-color: var(--x-background);
+    font-size: 14px;
+}
+
+.inputFeed, .tweetBox__imageInput:focus {
+    outline: none;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tweetBox__input {
+    display: flex;
+    gap: 16px;
+}
+
+.tweetBox__input > input {
+    flex: 1;
+}
+
+.icons {
+    display: flex;
+}
+
+.tweetBox__post {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
